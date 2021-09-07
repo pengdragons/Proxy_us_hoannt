@@ -23,7 +23,7 @@ thread_list = []
 commands = []
 for i in range(number_proxy):
     PORT = int(str(PORT)) - 1
-    commands.append(str('proxybroker serve --host 103.75.184.246 --port '+str(PORT) + ' --types HTTP HTTPS --lvl High -c US MAX_CONN 5'))
+    commands.append(str('proxybroker serve --host 2001:19f0:6001:10f5:5400:03ff:fe81:856d --port '+str(PORT) + ' --types HTTP HTTPS --lvl High -c US MAX_CONN 5'))
 
 for url in commands:
 
