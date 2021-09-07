@@ -17,7 +17,7 @@ def excute_data(number_gen):
 
     for i in range(int(number_gen)):
         mydata.append({
-            'ip' : '103.75.184.246',
+            'ip' : '8.6.8.208',
             'port': PORT
             })
         PORT = int(PORT) + 1
@@ -32,4 +32,4 @@ def excute_data(number_gen):
     thread.start()
     return(jsonstring)
 if __name__ == "__main__":
-   app.run(host='103.75.184.246')
+   app.run(host='8.6.8.208', debug=True)
